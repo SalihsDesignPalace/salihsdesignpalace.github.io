@@ -6,65 +6,91 @@
 <title>Salih's Design Palace</title>
 
 <style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #faf8f5;
-    color: #333;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-header {
-    background-color: white;
-    padding: 20px;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
+body{
+    font-family:Arial,sans-serif;
+    background:#faf8f5;
+    color:#333;
 }
 
-header h1 {
-    margin: 0;
+header{
+    background:white;
+    text-align:center;
+    padding:25px;
+    border-bottom:1px solid #ddd;
 }
 
-nav {
-    margin-top: 15px;
+header h1{
+    color:#7d5ba6;
+    margin-bottom:15px;
 }
 
-nav a {
-    text-decoration: none;
-    color: #444;
-    margin: 0 15px;
-    font-weight: bold;
+nav a{
+    text-decoration:none;
+    color:#444;
+    margin:0 15px;
+    font-weight:bold;
 }
 
-.hero {
-    text-align: center;
-    padding: 80px 20px;
+.hero-image{
+    width:100%;
 }
 
-.hero h2 {
-    font-size: 2.5em;
+.hero-image img{
+    width:100%;
+    display:block;
 }
 
-.hero p {
-    max-width: 700px;
-    margin: auto;
-    line-height: 1.6;
+.hero{
+    text-align:center;
+    padding:60px 20px;
 }
 
-.button {
-    display: inline-block;
-    margin-top: 25px;
-    padding: 12px 24px;
-    background: #444;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
+.hero h2{
+    font-size:42px;
+    margin-bottom:20px;
+    color:#7d5ba6;
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
-    margin-top: 50px;
-    border-top: 1px solid #ddd;
+.hero p{
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
+}
+
+.button{
+    display:inline-block;
+    margin-top:30px;
+    padding:14px 28px;
+    background:#7d5ba6;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.section{
+    max-width:1000px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+.section h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#7d5ba6;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    border-top:1px solid #ddd;
+    background:white;
 }
 </style>
 </head>
@@ -83,16 +109,37 @@ footer {
     </nav>
 </header>
 
+<div class="hero-image">
+    <img src="image.png" alt="Salih's Design Palace">
+</div>
+
 <section class="hero">
     <h2>Handmade Creations & Sensory Bags</h2>
 
     <p>
-        Welcome to Salih's Design Palace.
         Discover unique handmade creations made with care,
         creativity and imagination.
     </p>
 
     <a href="#" class="button">Explore Creations</a>
+</section>
+
+<section class="section">
+    <h2>About Us</h2>
+
+    <p>
+        Welcome to Salih's Design Palace. A place filled with creativity,
+        imagination and handmade treasures. We create unique decorative
+        items and sensory products designed to bring joy and inspiration.
+    </p>
+</section>
+
+<section class="section">
+    <h2>Sensory Bags</h2>
+
+    <p style="text-align:center;">
+        Coming Soon...
+    </p>
 </section>
 
 <footer>
